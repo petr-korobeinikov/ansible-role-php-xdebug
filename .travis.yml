@@ -23,6 +23,7 @@ install:
 
 script:
   # Basic role syntax check
+  - ansible-galaxy install pkorobeinikov.php
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
 
 notifications:
