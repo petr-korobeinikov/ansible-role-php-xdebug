@@ -1,0 +1,5 @@
+---
+- name: install php xdebug
+  apt: name="php{{ php_xdebug_version }}-xdebug" state=latest
+  notify:
+    - restart php{{ php_version }}-fpm

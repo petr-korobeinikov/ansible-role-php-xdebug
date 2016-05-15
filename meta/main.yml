@@ -1,0 +1,21 @@
+galaxy_info:
+  author: Petr Korobeinikov
+  description: PHP Xdebug installation.
+  issue_tracker_url: https://github.com/pkorobeinikov/ansible-role-php-xdebug
+  github_branch: master
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.0
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+
+  galaxy_tags:
+    - php
+    - web
+    - xdebug
+    - debug
+
+dependencies:
+  - pkorobeinikov.php
