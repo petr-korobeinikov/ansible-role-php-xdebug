@@ -23,10 +23,10 @@ Example Playbook
 
     - hosts: servers
       roles:
-        - role: ansible-role-php-xdebug
+        - role: pkorobeinikov.php-xdebug
           php_xdebug_version: 7.0
 
-        - role: ansible-role-php-xdebug
+        - role: pkorobeinikov.php-xdebug
           php_xdebug_version: 5.6
 
 License
