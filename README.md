@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/pkorobeinikov/ansible-role-php-xdebug.svg?branch=master)](https://travis-ci.org/pkorobeinikov/ansible-role-php-xdebug)
 
-ansible-role-php-xdebug
-=======================
+pkorobeinikov.php-xdebug
+========================
 
 PHP Xdebug installation.
 
